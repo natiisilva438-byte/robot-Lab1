@@ -29,6 +29,6 @@ The saved run logs and Git conflict files are in `evidence/`. To inspect the ori
 
 ![Five-bin RandomVector histogram](figures/random_vector_histogram.png)
 
-The plot uses the 20 observed values from `evidence/direct_compile_result.txt`. Bin counts are **5, 1, 4, 3, 7**. Tick marks show individual samples and the dashed line shows the mean. Download the [PNG](figures/random_vector_histogram.png), [editable SVG](figures/random_vector_histogram.svg), or [sample CSV](figures/random_vector_samples.csv). To regenerate the figure, install `numpy` and `matplotlib`, then run `python make_histogram.py`.
+The plot uses the 20 observed values from `evidence/direct_compile_result.txt`. Bin counts are **5, 1, 4, 3, 7**; the mean appears above the plot. Download the [PNG](figures/random_vector_histogram.png), [editable SVG](figures/random_vector_histogram.svg), or [sample CSV](figures/random_vector_samples.csv). To regenerate the figure, install `numpy` and `matplotlib`, then run `python make_histogram.py`.
 
 The `RandomVector` starter files were obtained from [MIT-SPARK/VNAV-labs](https://github.com/MIT-SPARK/VNAV-labs/tree/master/lab1). Experimental changes, test code, scripts, and visualization are included here.
