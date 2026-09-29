@@ -1,0 +1,6 @@
+RandomVector/build/
+RandomVector/*.exe
+RandomVector/*.pdb
+RandomVector/random_vector_direct
+git_demo_ubuntu/
+__pycache__/

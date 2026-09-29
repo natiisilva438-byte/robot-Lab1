@@ -1,0 +1,8 @@
+diff --git a/me.txt b/me.txt
+index eddd455..b83d79b 100644
+--- a/me.txt
++++ b/me.txt
+@@ -1,2 +1,3 @@
+ Jingxin Zhou
+ student@example.invalid
++Course VNAV Lab 1

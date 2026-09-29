@@ -1,0 +1,17 @@
+C++ warm-up answers (MIT VNAV Lab 1)
+
+Operators
+1. After j = ++i: i = 1, j = 1. After j = i++: i = 2, j = 1.
+2. b (42 < 42 is false).
+
+References and pointers
+1. 10 10 (ri aliases i).
+2. 1764 (42 * 42).
+3. 0 (24 - 24).
+4. 0 (reset receives j by reference).
+
+Numbers
+1. All four are signed integer types by default. Their guaranteed minimum widths are short 16 bits, int 16 bits, long 32 bits, and long long 64 bits. Exact widths are implementation-dependent; short <= int <= long <= long long in range/precision.
+2. double generally has greater precision and range than float; the standard guarantees at least as much precision. Converting 3.14 to int truncates toward zero, so i = 3.
+3. Signed types represent negative and nonnegative values; unsigned types represent only nonnegative values and arithmetic wraps modulo 2^N. With 8-bit unsigned char, c = 255.
+4. i = 0, because 42 converts to true in the if condition.

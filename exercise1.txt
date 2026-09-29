@@ -1,0 +1,6 @@
+Source: https://raw.githubusercontent.com/dlang/dmd/master/druntime/benchmark/extra-files/dante.txt
+Total lines (newline characters, equivalent to wc -l): 19567
+Total words (whitespace-delimited, equivalent to wc -w): 97676
+Nonblank lines (lines with at least one non-whitespace character): 14338
+Blank lines: 5229
+Source file size: 557042 bytes

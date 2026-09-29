@@ -1,0 +1,9 @@
+Auto-merging me.txt
+CONFLICT (content): Merge conflict in me.txt
+Automatic merge failed; fix conflicts and then commit the result.
+*   bb70d22 Resolve merge conflict
+|\  
+| * 12a2b57 Change details on branch
+* | 074999a Add course name
+|/  
+* 0864796 Add student details

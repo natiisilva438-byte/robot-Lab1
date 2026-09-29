@@ -1,0 +1,28 @@
+Lines: 19567
+Words: 97676
+Nonblank: 14338
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/lab1/RandomVector/build
+[ 50%] Built target random_vector_test
+[100%] Built target random_vector
+Test project /root/lab1/RandomVector/build
+    Start 1: random_vector_test
+1/1 Test #1: random_vector_test ...............   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+0.193146 0.935807 0.0478698 0.831597 0.539111 0.0278694 0.93919 0.544454 0.893339 0.693182 0.415163 0.454242 0.320536 0.0766892 0.809584 0.93073 0.982655 0.102505 0.716924 0.706215
+Mean: 0.55804
+Min: 0.0278694
+Max: 0.982655
+Histogram:
+                *** 
+                *** 
+***             *** 
+***     ***     *** 
+***     *** *** *** 
+***     *** *** *** 
+*** *** *** *** *** 
+

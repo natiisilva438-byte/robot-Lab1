@@ -1,0 +1,23 @@
+Ubuntu 20.04 Git exercise result
+
+The cloud Ubuntu repository in git_demo_ubuntu/ has two branches: master and collaborator.
+The merge produced a content conflict in me.txt; the pre-resolution markers
+were saved in git_conflict_ubuntu.txt. The conflict was resolved by keeping the
+student name and email and the course line. The final working tree is clean.
+
+Commit graph (abbreviated commit IDs from this run):
+*   bb70d22 Resolve merge conflict
+|\
+| * 12a2b57 Change details on branch
+* | 074999a Add course name
+|/
+* 0864796 Add student details
+
+git diff HEAD~2 compares the current worktree with the commit reached by
+following the first parent of HEAD twice. Here HEAD~2 is the initial
+"Add student details" commit, so the diff shows the net change since it:
+the additional course line. Without a path argument, it covers all tracked
+files; any uncommitted worktree changes would also appear.
+
+No remote push was attempted because the MIT course organization requires
+the student's own account and private repository.
